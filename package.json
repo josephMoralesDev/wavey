@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@ember-decorators/babel-transforms": "^2.1.2",
+    "@ember-decorators/object": "^5.1.4",
     "@ember/optional-features": "^0.7.0",
     "@ember/render-modifiers": "^1.0.0",
     "@glimmer/component": "^0.14.0-alpha.3",
