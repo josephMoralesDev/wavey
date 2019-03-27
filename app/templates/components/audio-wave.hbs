@@ -1,0 +1,8 @@
+<svg version="1.1"
+     baseProfile="full"
+     width="300" height="1000"
+     >
+  {{#each this.renderedArray as |buffer|}}
+    <rect class="audio-wave__buffer-bar" y={{buffer.y}} x={{buffer.x}} width={{buffer.width}} height={{buffer.height}} fill={{buffer.fill}} />
+  {{/each}}
+</svg>
