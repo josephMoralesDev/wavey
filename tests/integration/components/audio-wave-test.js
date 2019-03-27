@@ -17,7 +17,6 @@ module('Integration | Component | audio-wave', function(hooks) {
 
     this.set('bufferArray', [200,500,100,300,500,700]);
 
-
     bufferCount = this.element.querySelectorAll('.audio-wave__buffer-bar').length;
 
     assert.equal(bufferCount, 6, 'all elements in array have been re-rendered');
