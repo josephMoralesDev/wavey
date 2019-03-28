@@ -2,8 +2,8 @@
   class="audio-tracker__controller"
   id={{this.args.audioId}}
   src={{this.args.link}}
-  {{did-insert this.visualizerSetup}}
-  {{will-destroy this.cleanup}}>
+  {{byte-frequency this.updateBufferArray}}
+>
   <source class="audio-tracker__source" type="audio/x-m4a"/>
 </audio>
 {{yield (hash bufferArray=this.bufferArray)}}
