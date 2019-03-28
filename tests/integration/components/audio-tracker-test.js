@@ -21,6 +21,7 @@ module('Integration | Component | audio-tracker', function(hooks) {
     `);
 
     let bufferCount = this.element.querySelectorAll('.audio-wave__buffer-bar').length;
+    await this.pauseTest();
     assert.equal(bufferCount, 128, 'audio file is being rendered');
   });
 

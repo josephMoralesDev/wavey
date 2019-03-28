@@ -3,16 +3,15 @@ import { computed } from '@ember-decorators/object';
 
 export default class AudioWaveComponent extends Component {
 
-  @computed('bufferArray')
   get bufferWidth() {
     return 300 / this.args.bufferArray.length;
   }
-  @computed('bufferArray')
+
   get renderedArray() {
     const newArray = new Array();
 
     let bufferLocation = 0;
-
+    //use Array.from
     this.args.bufferArray.forEach((bufferHeight) => {
       const rectStyle = {
         width: this.bufferWidth,
