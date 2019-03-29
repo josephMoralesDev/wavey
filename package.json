@@ -39,6 +39,7 @@
     "ember-cli-uglify": "^2.1.0",
     "ember-data": "github:emberjs/data#722da7ce75597735f1769a98875fcadccb4b8749",
     "ember-export-application-global": "^2.0.0",
+    "ember-functional-modifiers": "^0.3.1",
     "ember-load-initializers": "^2.0.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.1.2",
